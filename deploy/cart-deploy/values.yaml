@@ -1,0 +1,9 @@
+---
+# Default values for cart-deploy.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+nsname: mycart
+mylabels:
+    app: myapp
+    tier: frontend
+replicas: 2
